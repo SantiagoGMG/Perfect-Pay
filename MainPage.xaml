@@ -95,6 +95,35 @@
                 <ColumnDefinition Width=".7*"/>
             </Grid.ColumnDefinitions>
 
+            <Label
+                Text="Introduce el total: $"
+                TextColor="{StaticResource LightFont}"
+                VerticalOptions="Center">
+            </Label>
+
+            <Label
+                Grid.Row="1"
+                Text="Escoge la propina"
+                TextColor="{StaticResource LightFont}"
+                VerticalOptions="Center">
+            </Label>
+
+            <Label
+                x:Name="lblTip"
+                Grid.Row="2"
+                Text="tipo: 0%"
+                TextColor="{StaticResource LightFont}"
+                VerticalOptions="Center">
+            </Label>
+
+            <Label
+                Grid.Row="3"
+                Text="Divide el total"
+                TextColor="{StaticResource LightFont}"
+                VerticalOptions="Center">
+                
+            </Label>
+
             <Entry 
                 Grid.Column="1"
                 Grid.Row="0"
