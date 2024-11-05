@@ -96,7 +96,7 @@
                 <ColumnDefinition Width=".3*"/>
                 <ColumnDefinition Width=".7*"/>
             </Grid.ColumnDefinitions>
-
+            <!--son los labels de la columna 0 -->
             <Label
                 Text="Introduce el total: $"
                 TextColor="{StaticResource LightFont}"
@@ -125,7 +125,7 @@
                 VerticalOptions="Center">
                 
             </Label>
-
+             <!--Son los componenetes para manipular y hacer uso de la calculadora-->
             <Entry 
                 Grid.Column="1"
                 Grid.Row="0"
