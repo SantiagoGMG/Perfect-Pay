@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\Perfect-Pay\Perfect-Pay\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-04T21:51:16.198</Modified>
+      <Modified>2024-11-05T00:30:59.565</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\Perfect-Pay\Perfect-Pay\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Perfect-Pay.dll">
       <PackagePath>Perfect-Pay.dll</PackagePath>
-      <Modified>2024-11-04T21:51:14.899</Modified>
+      <Modified>2024-11-05T00:30:58.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\Perfect-Pay\Perfect-Pay\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Perfect-Pay.exe</PackagePath>
-      <Modified>2024-11-04T21:51:14.968</Modified>
+      <Modified>2024-11-05T00:30:58.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\Perfect-Pay\Perfect-Pay\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

@@ -61,7 +61,8 @@
                     <Label 
                         Text="SUBTOTAL"
                         TextColor="{StaticResource LightFont}"></Label>
-                    <Label 
+                    <Label
+                        x:Name="lblSubtotal"
                         Text="$0.00"
                         TextColor="{StaticResource LightFont}"
                         FontAttributes="Bold"></Label>
@@ -70,6 +71,7 @@
                         TextColor="{StaticResource LightFont}"
                         Margin="0,10,0,0"></Label>
                     <Label 
+                        x:Name="lblTipByPerson"
                         Text="$0.00"
                         TextColor="{StaticResource LightFont}"
                         FontAttributes="Bold"></Label>
@@ -131,7 +133,8 @@
                 Keyboard="Numeric"
                 Text="0.0"
                 VerticalOptions="Center"
-                x:Name="txtBill"></Entry>
+                x:Name="txtBill"
+                Completed="txtBill_Completed"></Entry>
 
             <HorizontalStackLayout
                 Grid.Column="1"
@@ -140,9 +143,9 @@
                 Spacing="10"
                 HeightRequest="70">
 
-                <Button Text="10%" WidthRequest="70"></Button>
-                <Button Text="15%" WidthRequest="70"></Button>
-                <Button Text="20%" WidthRequest="70"></Button>
+                <Button Text="10%" WidthRequest="70" Clicked="Button_Clicked"></Button>
+                <Button Text="15%" WidthRequest="70" Clicked="Button_Clicked"></Button>
+                <Button Text="20%" WidthRequest="70" Clicked="Button_Clicked"></Button>
 
             </HorizontalStackLayout>
             <Label
@@ -153,8 +156,8 @@
                 Grid.Column="1"
                 Minimum="0"
                 Maximum="50"
-                x:Name="sldTip">
-
+                x:Name="sldTip"
+                ValueChanged="sldTip_ValueChanged">
             </Slider>
             <HorizontalStackLayout
                 Grid.Column="1"
@@ -164,7 +167,8 @@
                 <Button 
                     x:Name="btnMinus"
                     Text="-"
-                    WidthRequest="70"></Button>
+                    WidthRequest="70"
+                    Clicked="btnMinus_Clicked"></Button>
                 <Label
                     Text="1"
                     Margin="-5,0,-5,0"
@@ -181,7 +185,8 @@
                 <Button 
                     x:Name="btnPlus"
                     Text="+"
-                    WidthRequest="70"></Button>
+                    WidthRequest="70"
+                    Clicked="btnPlus_Clicked"></Button>
 
 
             </HorizontalStackLayout>
